@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Convertidor de moneda</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <h1>Aplicacion FOREX</h1>
+      <p class="info">Convierte tus dolares US a cualquier moneda!!<p/><br>
+      Monto en dolares US: <input type="number" placeholder="ingrese cantidad"><br><br>
+      <ul style="list-style-type:none;">
+        <li>Elija la moneda:
+          <select>
+            <option value="blank"></option>
+            <option value="EUR">Euros</option>
+            <option value="CAD">Dolar Canadiense</option>
+            <option value="GBP">Libra Esterlina</option>
+            <option value="COP">Peso Colombiano</option>
+            <option value="MXN">Peso Mexicano</option>
+            <option value="PEN">Sol Peruano</option>
+            <option value="CLP">Peso Chileno</option>
+            <option value="ARS">Peso Argentino</option>
+            <option value="AUD">Dolar Australiano</option>
+            <option value="BTC">Bitcoin</option>
+            <option value="CNY">Yuan Chino</option>
+            <option value="JPY">Yen Japones</option>
+            <option value="CHF">Franco Suizo</option>
+          </select>
+          <button id="add">+</button>&emsp;<span style="font-weight: bold;"></span><br><br>
+        </li>
+      </ul>
+      <footer>
+        Fuente: <a href="https://currencyapi.net/" target="_blank">Currency API</a>
+      </footer>
+    <script type="text/javascript" src="script.js">
+    </script>
+  </body>
+</html>
